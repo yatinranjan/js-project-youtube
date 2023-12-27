@@ -18,7 +18,10 @@ let numberOfNegatives = 0;
         return nums.includes(0) ? 0 : -1;
     }
 }
-
+// Example 1
 console.log(signOfProduct([2, -3, 5, 4]));
+// Output: -1
 
+// Example 2
 console.log(signOfProduct([1, 2, 0]));
+// Output: 1
