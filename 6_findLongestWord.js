@@ -13,8 +13,8 @@ function findLongestWord(sentence) {
     return maxLength;
 }
 // Example 1
-console.log(findLongestWord("Coding is fun with fellow learners")); // output 8
+console.log(findLongestWord("Coding is fun with fellow learners")); // output: 8
 // Example 2
-console.log(findLongestWord("The quick brown fox jumped over the lazy dog")); //output 6
+console.log(findLongestWord("The quick brown fox jumped over the lazy dog")); //output: 6
 // Do not modify the below lines
 module.exports = { findLongestWord };

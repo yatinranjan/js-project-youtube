@@ -13,9 +13,9 @@ function isPalindrome(str) {
     return cleanedStr === reversedStr;
 }
 // Example 1
-console.log(isPalindrome("RaceCar")); // true
+console.log(isPalindrome("RaceCar")); //  Output: true
 // Example 2
-console.log(isPalindrome("Hello"));   // false
+console.log(isPalindrome("Hello"));   // Output: false
 
 // Do not modify the below lines
 module.exports = { isPalindrome };

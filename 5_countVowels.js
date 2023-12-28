@@ -12,8 +12,8 @@ function countVowels(str) {
     return count;
 }
 // Example 1
-console.log(countVowels("AlmaBetter")); // output 4
+console.log(countVowels("AlmaBetter")); // output: 4
 // Example 2
-console.log(countVowels("Coding is fun with fellow learners")); // output 10
+console.log(countVowels("Coding is fun with fellow learners")); // output: 10
 // Do not modify the below lines
 module.exports = { countVowels };
